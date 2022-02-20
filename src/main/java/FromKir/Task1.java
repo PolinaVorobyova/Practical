@@ -30,7 +30,6 @@ public class Task1 {
         s = "dfl;s";
         System.out.println(s.hashCode());
 
-        String.
 
 
 
