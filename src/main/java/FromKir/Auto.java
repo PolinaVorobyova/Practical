@@ -11,13 +11,15 @@ public class Auto {
     private String color;
     private Double volume;
 
-        public Auto(String name, Integer year, Double cost, String color, Double volume) {
-            this.name = name;
-            this.year = year;
-            this.cost = cost;
-            this.color = color;
-            this.volume = volume;
-        }
+
+    public Auto(String name, Integer year, Double cost, String color, Double volume) {
+        this.name = name;
+        this.year = year;
+        this.cost = cost;
+        this.color = color;
+        this.volume = volume;
+    }
+
 
     public String getName() {
         return name;

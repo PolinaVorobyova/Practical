@@ -15,7 +15,7 @@ public class Task1 {
         }
         Collections.shuffle(list);
 
-        //System.out.println(list);
+        System.out.println(list);
 
         List<Integer> collect = list.stream().map(i -> Math.abs(i)).collect(Collectors.toList());
         System.out.println(collect);

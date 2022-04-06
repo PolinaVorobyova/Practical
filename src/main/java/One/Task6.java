@@ -8,6 +8,7 @@ public class Task6 {
     }
 
     public static Boolean askPalindrome(String x) {
+
         return x.equals((new StringBuilder(x)).reverse().toString());
     }
 }
